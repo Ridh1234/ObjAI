@@ -49,3 +49,4 @@ if uploaded_file != None:
     else:
         st.markdown(f'<h4 style = "text-align:center">The tissue image is cancerous with probability %.3f.<h4>'%(proba[0].item()),unsafe_allow_html = True)
 # random change 834
+# random change 413
