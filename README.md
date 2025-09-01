@@ -7,7 +7,7 @@ Manual detection is a tedious, tiring task and most likely to comprise human err
 irregular random and arbitrary visual angles. The goal of this project is to identify whether a tumor is benign or malignant in nature, as
 malignant tumors are cancerous and should be treated as soon as possible to reduce and prevent further complications.
 <p  align="center">
-<img src="images/dataset_visualization.jpg" alt="about dataset"><br>
+<img src="dataset_visualization.jpg" alt="about dataset"><br>
 <i>(Image source : Colab file)</i>
 </p>
 
@@ -61,7 +61,7 @@ value increases the time complexity to a huge extent. The run time exceeded 7 ho
 We chose ‘specificity’ as the metric for evaluation as it denotes the chance of correctly classifying negative samples thereby maximizing the surety of positive samples not going undetected. While training the deep learning models (MLP, CNN and Transfer Learning model), the model with highest specificity is saved and it turns out to be the model with lowest validation loss. From the loss vs epoch curves for the Deep Learning frameworks(Linear and CNN), it can be observed that after a certain number of epochs the training loss is decreasing whereas the validation loss is increasing, this implies that the model started to overfit after a certain number of epochs.
 
 <p  align="center">
-<img src="images/ROC_TL.jpg" alt="ROC_TL"><br>
+<img src="ROC_TL.jpg" alt="ROC_TL"><br>
 <i>(Image source : Colab file)</i>
 </p>From the attached ROC curve, we can see that the validation AUC is less than that of training AUC in the case of ‘Transfer Learning’ model. Hence, we can say that the Transfer learning model is not getting overfitted.
 
@@ -79,24 +79,3 @@ We referred to the following research papers and documentations:
 - [Transfer learning based histopathologic image classification for breast cancer detection](https://link.springer.com/article/10.1007/s13755-018-0057-x)
 - [Pytorch](https://pytorch.org/docs/stable/nn.html)
 - [Scikit learn](https://scikit-learn.org/stable/user_guide.html)
-# random change 447
-# random change 835
-# random change 18
-# random change 254
-# random change 277
-# random change 529
-# random change 775
-# random change 427
-# random change 933
-# random change 529
-# random change 811
-# random change 355
-# random change 458
-# random change 73
-# random change 821
-# random change 872
-# random change 574
-# random change 208
-# random change 305
-# random change 584
-# random change 9
